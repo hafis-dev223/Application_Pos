@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LARIS POS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="intro-screen" aria-hidden="true">
+      <span>LARIS POS</span>
+    </div>
+
+    <header class="site-header">
+      <div class="Container1">
+        <h2>laris pos</h2>
+        <nav aria-label="Navigasi utama" class="Navigasi-Dekstop">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Work">Work</a></li>
+          </ul>
+        </nav>
+
+        <button id="Hamburger">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon">
+            <path vector-effect="non-scaling-stroke" d="M4 5h16" />
+            <path vector-effect="non-scaling-stroke" d="M4 12h16" />
+            <path vector-effect="non-scaling-stroke" d="M4 19h16" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="Hero">
+      <div class="Container-Hero">
+        <img src="/assets/images/Premium Kopi Senja Banking App Mockup.png" alt="" />
+        <div class="Halaman-Judul-Section">
+          <h1>LARIS POS</h1>
+        </div>
+        <div class="Kumpulan-Button">
+          <button></button>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+  <svg style="display: none">
+    <filter id="apple-liquid-glass" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.015" numOctaves="1" seed="5" result="noise" />
+      <feGaussianBlur in="noise" stdDeviation="2" result="smoothNoise" />
+      <feDisplacementMap in="SourceGraphic" in2="smoothNoise" scale="14" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </svg>
+</html>
